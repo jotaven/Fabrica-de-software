@@ -1,5 +1,5 @@
-v = str(input('letra: ')).lower
-if v in "aeiou":
+letra = input('letra: ')
+if letra.lower() in "aeiou":
     print('É uma vogal')
 else:
-    print('É uma consoante')
+    print('É uma Consoante')

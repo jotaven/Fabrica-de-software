@@ -1,4 +1,4 @@
-letra = input('letra: ')
+letra = str(input('letra: '))
 if letra.lower() in "aeiou":
     print('É uma vogal')
 else:

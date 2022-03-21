@@ -1,5 +1,5 @@
-v = input('letra: ')
+v = str(input('letra: ')).lower
 if v in "aeiou":
-    print('sim é uma vogal')
+    print('É uma vogal')
 else:
-    print('não é uma vogal')
+    print('É uma consoante')

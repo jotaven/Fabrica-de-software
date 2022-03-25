@@ -1,0 +1,13 @@
+{% load static %}
+
+
+
+
+<div>
+    <h1>Crie sua Postagem</h1>
+    <form enctype = "multipart/form-data" method = "POST">
+        {% csrf_token %}
+        {{ formulario.as_p }}
+        <button type="submit"> Salvar </button>
+    </form>
+</div>

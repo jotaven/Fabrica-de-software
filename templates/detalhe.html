@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block titulo %}
+Detalhe
+{% endblock titulo %} 
+
+{% block body %}
+    <div>
+        <a href="{% url 'principal' %}">Voltar</a>
+
+        <a href="{% url 'alterar' postagemPesquisada.id %}">Alterar Postagem</a>
+        <a href="{% url 'delete' postagemPesquisada.id%}"> Deletar a Postagem </a>
+    </div>
+    <h2>{{postagemPesquisada.titulo}}</h2>
+    <p>{{postagemPesquisada.texto}}</p>
+
+
+
+{% endblock body %}

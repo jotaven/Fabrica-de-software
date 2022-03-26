@@ -10,7 +10,7 @@
     <title>Principal</title>
 </head>
 <body>
-    <a href="{% url 'criar' %}">Adicione um item a sua Lista</a>
+    
     <h1>Minha lista</h1>
     <h3>Coisas à fazer:</h3>
     {% for item in objects%}
@@ -20,5 +20,6 @@
             </li>
         </ul>
     {% endfor %}
+    <a href="{% url 'criar' %}">Adicione um item a sua Lista</a>
 </body>
 </html>

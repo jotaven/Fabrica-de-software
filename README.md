@@ -1,9 +1,9 @@
 # Fabrica-de-software
-Esse é o projedo da fabrica de software da area de Back-End com o framework Django com a linguaguem python.
+Esse é o projedo da fabrica de software da area de Back-End com o framework Django com a linguaguem python.    
 
--Cada dia, foi criada uma branch diferente com exercicios diferentes.
+-Cada dia, foi criada uma branch diferente com exercicios diferentes.    
 
-Para exercitar tudo o que aprendemos na semana de filtragem do workshop, foi lançado o desafio do Django com CRUD!
+Para exercitar tudo o que aprendemos na semana de filtragem do workshop, foi lançado o desafio do Django com CRUD!    
     DESAFIO:
       Obrigatório:
       * Entregar um site com uma temática diferente, mas que execute as ações do CRUD (criar, ler, alterar e deletar)
@@ -19,4 +19,4 @@ Para exercitar tudo o que aprendemos na semana de filtragem do workshop, foi lan
       
       
 
-A temática do meu site consiste em poder criar varias notas do que eu preciso fazer. criando uma lista "to-do".
+   A temática do meu site consiste em poder criar varias notas do que eu preciso fazer. criando uma lista "to-do".

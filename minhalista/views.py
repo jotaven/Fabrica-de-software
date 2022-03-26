@@ -23,3 +23,13 @@ def viewCriar(request):
             return redirect('principal')
 
     return render(request, "criar.html", {"formulario":formulario})
+
+def viewAlterar(request, id):
+    list_itemAlterado = get_object_or_404(List, pk=id)
+    formulario = RegistroList(request.POST or None, instance=list_itemAlterado)
+
+    if formulario.is_valid():
+        formulario.save()
+        return redirect('principal')
+
+    return render(request, 'alterar.html', {'formulario':formulario})

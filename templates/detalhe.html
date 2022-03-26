@@ -9,9 +9,10 @@
 <body>
     <div>
         <a href="{% url 'principal' %}">Voltar</a>
-        
     </div>
-    <h2>{{listaPesquisada.titulo}}</h2><a href="{% url 'apague' listaPesquisada.id %}">Apagar</a>
+    <h2>{{listaPesquisada.titulo}}</h2>
+    <a href="{% url 'apague' listaPesquisada.id %}">Apagar</a>
+    <a href="{% url 'alterar' listaPesquisada.id %}">Alterar</a>
     <p>{{listaPesquisada.texto}}</p>
 </body>
 </html>

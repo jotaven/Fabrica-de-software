@@ -8,10 +8,10 @@
 </head>
 <body>
     <div>
-        <a href="{% url 'principal' %}">voltar</a>
+        <a href="{% url 'principal' %}">Voltar</a>
         
     </div>
-    <h2>{{listaPesquisada.titulo}}</h2><a href="{% url 'apague' listaPesquisada.id %}">apagar</a>
+    <h2>{{listaPesquisada.titulo}}</h2><a href="{% url 'apague' listaPesquisada.id %}">Apagar</a>
     <p>{{listaPesquisada.texto}}</p>
 </body>
 </html>

@@ -7,13 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <div></div>
     <div>
         <h1>Adicione um item a sua Lista</h1>
         <form enctype = "multipart/form-data" method = "POST">
             {% csrf_token %}
             {{ formulario.as_p }}
-            <button type="submit">salvar</button>
+            <button type="submit">Salvar</button>
         </form>
     </div> 
     
